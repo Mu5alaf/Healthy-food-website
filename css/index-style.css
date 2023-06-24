@@ -1,0 +1,753 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.05;
+    color: #555;
+    background-color: #ebfbee;
+
+}
+
+/* header section styling */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #69db7c;
+}
+
+.header-logo {
+    margin: 2rem;
+}
+
+.h-logo {
+    width: 15rem;
+}
+
+.header-nav {
+    display: flex;
+    margin: 0.5rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-nav:link,
+.header-nav:visited {
+    padding: 2rem;
+    background-color: #ebfbee;
+    color: #333;
+    border-radius: 4rem;
+}
+
+.header-nav a:hover {
+    color: #fff;
+    background-color: #40c057;
+    transition: all 0.9s;
+}
+
+/* heder section end */
+
+/* hero section styling */
+.hero {
+    background-color: #69db7c;
+    padding: 9rem 0;
+
+}
+
+.hero-section {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    max-width: 130rem;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+.hero-img-box {
+    display: grid;
+    grid-column: 2/-1;
+    grid-row: 1/-3;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero-heading {
+    font-family: 'Merienda', sans-serif;
+    margin-bottom: 3.2rem;
+    font-size: 5.2rem;
+    line-height: 1.05;
+    font-weight: 700;
+    color: #343a40;
+    letter-spacing: -1.5px;
+}
+
+.hero-description {
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 4.2rem;
+    font-size: 1.9rem;
+    line-height: 1.6;
+    font-weight: 500;
+    color: #555;
+}
+
+.hero-button {
+    padding-right: 3rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+    height: 5rem;
+    background-color: #ebfbee;
+    text-decoration: none;
+    color: #333;
+    font-family: sans-serif;
+    font-weight: 500;
+    border-radius: 2rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 1, 0.39);
+}
+
+.hero-btn:hover {
+    background-color: #40c057;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.hero-icon {
+    padding-left: 1rem;
+    width: 4rem;
+}
+
+.customers {
+    display: flex;
+    padding: 2rem;
+}
+
+.client {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 4rem;
+    ;
+    border: 2px solid #fff;
+    margin: -1.0rem;
+}
+
+.customer-text-box {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 1.5rem 2rem;
+}
+
+.customer-num {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.customer-text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+/* end of hero section */
+/* span logos section */
+.featured h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5rem;
+    margin: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.logos {
+    margin: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.span-logo {
+    height: 13%;
+    width: 14%;
+    filter: grayscale(1);
+}
+
+/* end of span logo */
+
+/* Mobile application documentation section  */
+.Application-section {
+    margin: 3rem 3rem;
+}
+
+.Section-title {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Rubik', sans-serif;
+    color: #40c057;
+}
+
+.app--grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-items: center;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.App-text {
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.4;
+    font-family: 'Rubik', sans-serif;
+}
+
+.App-text h1 {
+    font-size: 5rem;
+    opacity: 0.6;
+    color: #000;
+
+}
+
+.App-text h2 {
+    font-weight: 600;
+    color: #333;
+
+}
+
+.App-text p {
+    font-weight: 400;
+    color: #555;
+}
+
+.Img-background {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.Img-background::before {
+    position: absolute;
+    top: 10%;
+    content: "";
+    display: block;
+    padding-bottom: 60%;
+    width: 100%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: #40c057;
+    z-index: -1;
+    opacity: 55%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.33);
+}
+
+.Img-background::after {
+    position: absolute;
+    top: 14%;
+    content: "";
+    display: block;
+    padding-bottom: 50%;
+    width: 85%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: #40c057;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.40);
+    z-index: -1;
+}
+
+.App-img {
+    width: 60%;
+}
+
+/* meal sections */
+.meals-section {
+    margin: 3rem 3rem;
+}
+
+.headline {
+    margin: 2rem 2rem;
+    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    margin: 1rem 1rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.headline h1 {
+    margin: 2rem 2rem 2rem;
+    font-size: 3.9rem;
+    font-family: 'Merienda', sans-serif;
+    color: #40c057;
+}
+
+.meals-continuer {
+    padding: 2.6rem 0;
+    display: grid;
+    column-gap: 4rem;
+    grid-template-columns: repeat(3, 35rem);
+    justify-content: space-around;
+}
+
+.meals-img {
+    width: 100%;
+    border-radius: 2rem 0 2rem;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.33);
+}
+
+.meals-section ion-icon {
+    height: 2rem;
+    width: 2rem;
+    color: #40c057;
+
+}
+
+.tag {
+    height: 2rem;
+    width: 9rem;
+    margin: 2rem 2rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: #94d82d;
+    display: inline-block;
+    text-align: center;
+    padding: 0.4rem 0.8rem;
+    border-radius: 10rem;
+}
+
+.tag-2 {
+    height: 2rem;
+    width: 9rem;
+    margin: 2rem 2rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background-color: #fab005;
+    display: inline-block;
+    text-align: center;
+    padding: 0.4rem 0.4rem;
+    border-radius: 10rem;
+}
+
+.meal-title {
+    margin: 2rem;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.meal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4rem;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.33);
+    background-color: #f8f9fa;
+    overflow: hidden;
+}
+
+.meal:hover {
+    transform: translateY(-2rem);
+    transition: all 1s;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.500);
+}
+
+.list-li {
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    font-size: 1.7rem;
+}
+
+.diets-list p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.diets-list ul {
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 3rem;
+}
+
+.meals-recipe {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.meals-recipe a {
+    font-family: 'Rubik';
+    font-weight: 600;
+    color: #555;
+    text-decoration: none;
+}
+
+.meals-recipe a:hover,
+.meals-recipe link:active {
+    color: #40c057;
+    transition: all 1s;
+    text-decoration: underline;
+}
+
+/* end of meal sections */
+/* review-section */
+.review-section {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+    align-items: start;
+    column-gap: 3rem;
+}
+
+.customer-headline {
+    grid-column: 1/-1;
+    font-family: 'Rubik';
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.customer-headline h3 {
+    font-size: 1.5rem;
+    color: #40c057;
+    margin: 1rem 1rem;
+}
+
+.customer-review {
+    margin: 2rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+    justify-items: flex-start;
+    gap: 5rem;
+}
+
+.c-img {
+    margin: 1rem 1rem;
+    border-radius: 10rem;
+    width: 20%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.171);
+}
+
+.customer-review blockquote {
+    margin: 1rem 1rem;
+    font-family: 'rubik';
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
+.customer-review h3 {
+    margin: 1rem 1rem;
+    font-size: 2rem;
+}
+
+.gallery {
+    margin: 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.gallery-img {
+    max-width: 90%;
+    display: block;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.40);
+
+
+}
+
+.gallery-img:hover {
+    transform: scale(1.1);
+    transition: all 0.9s;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+}
+
+/* pricing section */
+.price-continuer {
+    margin: 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 40rem);
+    gap: 10rem;
+    justify-content: center;
+}
+
+.card-title {
+    display: inline-block;
+    font-size: 3rem;
+}
+
+.plan-price {
+    display: inline-block;
+    font-size: 3rem;
+}
+
+.price-card {
+    position: relative;
+    padding: 2rem 2rem;
+    margin: 3rem 3rem;
+    display: grid;
+    justify-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    gap: 4rem;
+    background-color: #b2f2bb;
+    border-radius: 3rem 0 3rem 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.40);
+    overflow: hidden;
+    font-size: 1.7rem;
+}
+
+.price-card li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.price-card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.price-card ion-icon {
+    color: #000;
+    font-size: 2rem;
+}
+
+.label::after {
+    content: "Best value";
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem 5rem 1rem 5rem;
+    position: absolute;
+    top: 4%;
+    right: -14%;
+    transform: rotate(39deg);
+    font-size: 1.6rem;
+    background-color: #fab005;
+    overflow: hidden;
+}
+
+.price-card:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.future-elements {
+    margin: 1rem 1rem;
+    padding: 5rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 30rem);
+    justify-content: space-evenly;
+}
+
+.future {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 2rem;
+}
+
+.future h2 {
+    font-family: 'rubik';
+    font-size: 2.4rem;
+}
+
+.future ion-icon {
+    padding: 1rem 1rem;
+    font-size: 3rem;
+    color: #40c057;
+    background-color: #fff;
+    border-radius: 3rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.100);
+}
+
+.important {
+    margin: 2rem 2rem;
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 1.2rem;
+}
+
+.important:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+/* sign-up section */
+.sign-up {
+    margin: 2rem 2rem;
+    padding: 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: flex-start;
+    justify-content: space-around;
+    justify-items: flex-start;
+}
+.sign-up-box {
+    margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.sign-text h1 {
+    margin: 2rem 2rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 4rem;
+}
+
+.sign-text {
+    margin: 2rem 2rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    display: block;
+}
+
+.user-input {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.7rem;
+}
+
+.user-label {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.user-input input {
+    font-family: 'Rubik';
+    padding: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+.user-select{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-input select {
+    font-family: 'rubik';
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    margin: 2rem 2rem;
+}
+.sign-btn-main{
+    display: flex;
+    justify-content: center;
+}
+.sign-up-btn {
+    margin: 2rem 2rem;
+    padding: 1rem 4rem;
+    font-family: 'rubik', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.33);
+    border-radius: 2rem;
+}
+.sign-up-btn:hover {
+    background-color: #69db7c;
+    color: #fff;
+    transition: all 1s;
+}
+.S-img {
+    max-width: 60rem;
+}
+/* footer section */
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(5,25rem);
+    gap:3rem;
+    margin: 2rem 2rem;
+    padding: 1rem 2rem;
+}
+.footer-container a{
+    text-decoration: none;
+    color: #333;
+}
+.footer-container a:hover{
+    color: #40c057;
+    text-decoration: underline;
+}
+
+.footer-container p{
+    font-family: 'rubik';
+    font-size: 2rem;
+}
+.footer-container ul{
+    padding: 2rem 2rem;
+}
+.footer-container li{
+    font-family: 'rubik';
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    list-style: none;
+    text-align: start;}
+.first-col{
+padding: 2rem 2rem;
+}
+.second-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+}
