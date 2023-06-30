@@ -14,6 +14,7 @@
     }
 
 }
+
 /* break point at 1178 */
 @media(max-width:74em) {
     .hero-section {
@@ -29,9 +30,7 @@
             font-weight: 700;
         }
     }
-
 }
-
 
 /* break point at 966 */
 @media(max-width:50.18em) {
@@ -47,10 +46,11 @@
 
 /* break point at 388 */
 
-@media(max-width:23.25em) {
+@media(max-width:40.25em) {
     html {
-        font-size:40.26%;
+        font-size: 40.26%;
     }
+
     .Section-title {
         font-size: 2rem;
     }
@@ -68,7 +68,7 @@
     }
 
     .mobile-nav-btn {
-        font-size: 5rem;
+        font-size: rem;
         display: block;
         z-index: 999;
     }
