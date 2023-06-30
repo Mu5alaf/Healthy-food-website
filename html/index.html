@@ -375,15 +375,15 @@
                         <p>Healthy, tasty and hassle-free meals are waiting for you. Start eating well today.
                             You can cancel or pause anytime. And the first meal is on us!</p>
                     </div>
-                    <div class="user-input" name="sign-up"netlify>
+                    <form class="user-input" name="sign-up"netlify>
                         <div class="user-label">
                             <label for="name">First Name</label>
-                            <input type="text" id="name" name="name" required minlength="4" maxlength="8"
+                            <input type="text" id="name" name="name" required minlength="4" maxlength="15"
                                 placeholder="Enter Your first name">
                         </div>
                         <div class="user-label">
                             <label for="email">Email Address</label>
-                            <input type="email" name="email" class="style" id="email" pattern="User@example.com"
+                            <input type="email" name="email" class="style" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
                                 placeholder="User@example.com" required>
                         </div>
                         <div class="user-select">
@@ -400,7 +400,7 @@
                         <div class="sign-btn-main">
                             <button class="sign-up-btn">Sign up</button>
                         </div>
-                    </div>
+                    </form>
                 </div>
                 <div class="img-box">
                     <img class="login-img" src="/img/signup.png" alt="sign up logo picture">
