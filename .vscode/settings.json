@@ -6,5 +6,8 @@
         "Nutrivora",
         "Omnifood",
         "Pescatarian"
+    ],
+    "cSpell.enableFiletypes": [
+        "html"
     ]
 }

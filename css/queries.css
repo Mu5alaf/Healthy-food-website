@@ -1,0 +1,222 @@
+/* break point at 1178 */
+@media(max-width:74em) {
+    .hero-section {
+        .hero-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: 120rem;
+        }
+
+        .hero-heading {
+            font-size: 4.2rem;
+            line-height: 1.05;
+            font-weight: 700;
+        }
+
+    }
+
+}
+
+@media (max-width:130em) {
+    .mobile-nav {
+        display: none;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: center;
+    }
+
+    .gallery-img {
+        max-width: 60%;
+    }
+}
+
+/* break point at 1000 */
+@media(max-width:100.5em) {
+    html {
+        font-size: 40%;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: center;
+    }
+
+    .gallery-img {
+        max-width: 60%;
+    }
+
+}
+
+/* break point at 966 */
+@media(max-width:50.18em) {
+    html {
+        font-size: 25.26%;
+    }
+
+    .hero-section {
+        max-width: 100%;
+    }
+
+}
+
+/* break point at 388 */
+
+@media(max-width:24.25em) {
+    .Section-title {
+        font-size: 2rem;
+    }
+
+    .hero-section {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .hero-img-box {
+        grid-column: 2/1;
+        grid-row: 3/4;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .mobile-nav-btn {
+        display: block;
+        z-index: 999;
+    }
+
+    .header-nav {
+        background-color: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        opacity: 0.999;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        pointer-events: none;
+        transform: translateX(100%);
+        transition: all 2s ease-out;
+    }
+
+    .nav:link,
+    .nav:visited {
+        background: none;
+        font-size: 2.5rem;
+    }
+
+    .nav-open .header-nav {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    .nav-open .mobile-nav-btn[name="close-circle-outline"] {
+        display: block;
+    }
+
+    .nav-open .mobile-nav-btn[name="list-outline"] {
+        display: none;
+    }
+
+    .customers {
+        justify-content: center;
+    }
+
+    .customer-review {
+        gap: 1rem;
+    }
+
+    .review-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .gallery-img {
+        max-width: 90%;
+    }
+
+    .sign-up-continuer {
+        grid-template-columns: 1fr;
+
+    }
+
+    .img-box {
+        width: 50%;
+        justify-self: center;
+        grid-row: 1/2;
+    }
+
+    .user-input {
+        width: 30rem
+    }
+
+    .user-select {
+        width: 30rem
+    }
+
+    #name {
+        font-size: 2rem;
+    }
+
+    #email {
+        font-size: 2rem;
+    }
+
+    .option {
+        font-size: 1rem;
+    }
+
+    #select-option {
+        font-size: 1rem;
+    }
+
+    .meals-continuer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .diets-list {
+        margin: 2rem 2rem;
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+
+    .future-elements {
+        width: 50rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .price-continuer {
+        grid-template-columns: 60%;
+        justify-self: center;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .first-col {
+        grid-row: 1/-4;
+        align-self: center;
+    }
+
+    .App-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .App-text {
+        width: 50rem;
+        justify-self: center;
+        grid-row: 1/2;
+    }
+}
