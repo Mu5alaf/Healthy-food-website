@@ -350,7 +350,7 @@ header {
 
 }
 
-.meal-section-contiuner {
+.meal-section-continuer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -388,7 +388,7 @@ header {
     color: #42864e;
 }
 
-.meal-detials {
+.meal-details {
     text-align: center;
 }
 
