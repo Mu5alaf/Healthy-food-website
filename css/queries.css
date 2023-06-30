@@ -34,19 +34,24 @@
 
 /* break point at 966 */
 @media(max-width:50.18em) {
-    html {
-        font-size: 25.26%;
-    }
-
     .hero-section {
-        max-width: 100%;
-    }
+        .hero-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: 120rem;
+        }
 
+        .hero-heading {
+            font-size: 4.2rem;
+            line-height: 1.05;
+            font-weight: 700;
+        }
+    }
 }
 
 /* break point at 388 */
 
-@media(max-width:40.25em) {
+@media(max-width:50em) {
     html {
         font-size: 40.26%;
     }
@@ -72,7 +77,6 @@
         display: block;
         z-index: 999;
     }
-
     .header-nav {
         background-color: rgba(255, 255, 255, 0.6);
         backdrop-filter: blur(10px);
@@ -81,7 +85,7 @@
         position: absolute;
         justify-content: center;
         align-items: center;
-        gap: 8rem;
+        gap: 10rem;
         flex-direction: column;
         top: 0;
         left: 0;
@@ -107,6 +111,7 @@
 
     .nav-open .mobile-nav-btn[name="close-circle-outline"] {
         display: block;
+        font-size:5rem;
     }
 
     .nav-open .mobile-nav-btn[name="list-outline"] {
