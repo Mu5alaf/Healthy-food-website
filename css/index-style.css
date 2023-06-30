@@ -59,10 +59,10 @@ header {
     text-decoration: none;
 }
 
-.nav a:hover {
+.nav:hover {
     color: #fff;
     background-color: #40c057;
-    transition: all 0.9s;
+    transition: all;
 }
 
 .mobile-nav-btn {
