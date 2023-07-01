@@ -372,7 +372,7 @@ header {
 .meal {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     justify-self: center;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.700);
     max-width: 30rem;
@@ -388,24 +388,6 @@ header {
 
 .meal ion-icon {
     color: #42864e;
-}
-
-.meal-details {
-    text-align: center;
-}
-
-.tag {
-    display: inline-block;
-    font-size: 1.4rem;
-    text-align: center;
-    background-color: #40c057;
-    padding: 0.5rem;
-    margin: 1rem;
-    border-radius: 10rem;
-}
-
-.t2 {
-    background-color: #e0cf30;
 }
 
 .meal-title {
@@ -674,7 +656,7 @@ header {
 
 .tag {
     margin: 2rem 2rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-family: sans-serif;
     text-transform: uppercase;
     background-color: #94d82d;
@@ -684,11 +666,11 @@ header {
     border-radius: 10rem;
 }
 
-.tag-2 {
+.t2 {
     height: 2rem;
     width: 9rem;
     margin: 2rem 2rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: sans-serif;
     text-transform: uppercase;
     background-color: #fab005;
