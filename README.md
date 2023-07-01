@@ -1,3 +1,3 @@
 # Healthy-food-website
 A website for healthy food delivered daily meals.
-![omnifood-logo](https://github.com/MuKhalaF/Healthy-food-website/assets/109148687/d9060598-7e59-48f2-b1d6-e78d6c926904)
+![image](https://github.com/MuKhalaF/Healthy-food-website/assets/109148687/f5f1e0c6-beb3-45bf-9986-057f1d2441bf)
