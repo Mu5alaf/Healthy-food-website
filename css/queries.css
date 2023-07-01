@@ -1,20 +1,38 @@
+/* for high resolution */
+@media(max-width:200em) {
+    html {
+        font-size: 55%;
+    }
+    .hero {
+        display: flex;
+        justify-content: center;
+    }
+    .gallery{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .gallery-img {
+        max-width:90%;
+    }
+    .Section-title h1{
+        font-size: 4rem
+    }
+}
 /* break point at 1000 */
 @media(max-width:89.375em) {
     html {
         font-size: 55%;
     }
-
     .hero {
         display: flex;
         justify-content: center;
     }
-
-    .gallery-img {
-        max-width: 60%;
+    .gallery{
+        grid-template-columns: repeat(4,1fr);
     }
-
+    .gallery-img {
+        max-width:90%;
+    }
 }
-
 /* break point at 1178 */
 @media(max-width:74em) {
     .hero-section {
@@ -211,5 +229,9 @@
         width: 50rem;
         justify-self: center;
         grid-row: 1/2;
+    }
+    .price-card{
+        justify-self: center;
+        width: 35rem;
     }
 }
